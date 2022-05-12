@@ -39,7 +39,7 @@ class Tetris():
         self.points = 0
         self.dropevery = 0
         self.new_piece = True
-        return (self.getRender(), self.piece.next_piece, self.level, self.cleared_rows, self.points, self.running
+        return (self.getRender(), self.piece.next_piece, self.level, self.cleared_rows, self.points, self.running)
 
 
     def gameloop(self, action=[0, 0, 0]):
